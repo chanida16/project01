@@ -21,7 +21,19 @@ const routes = [
   name: 'contact',
   component: () => import(/* webpackChunkName: "about" */ '../views/contact')
 }
-  
+,
+  {
+  path: '/grade',
+  name: 'grade',
+  component: () => import(/* webpackChunkName: "about" */ '../views/Grade')
+}
+,
+  {
+  path: '/golds',
+  name: 'golds',
+  component: () => import(/* webpackChunkName: "about" */ '../views/Api_gold.vue')
+}
+
 ]
 
 const router = createRouter({

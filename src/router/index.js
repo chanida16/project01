@@ -33,6 +33,26 @@ const routes = [
   name: 'golds',
   component: () => import(/* webpackChunkName: "about" */ '../views/Api_gold.vue')
 }
+,
+  {
+  path: '/products_api',
+  name: 'products_api',
+  component: () => import(/* webpackChunkName: "about" */ '../views/products_api.vue')
+}
+,
+  {
+  path: '/User',
+  name: 'User',
+  component: () => import(/* webpackChunkName: "about" */ '../views/User.vue')
+}
+,
+  {
+  path: '/shop',
+  name: 'shop',
+  component: () => import(/* webpackChunkName: "about" */ '../views/shop.vue')
+}
+
+
 
 ]
 

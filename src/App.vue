@@ -21,12 +21,13 @@
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown link
+            Api
           </a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="/golds">ราคาทองวันนี้</a></li>
-            <li><a class="dropdown-item" href="Product_api">สินค้า</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><a class="dropdown-item" href="/products_api">สินค้า</a></li>
+             <li><a class="dropdown-item" href="/shop">แสดงรายการสินค้า</a></li>
+            <li><a class="dropdown-item" href="/User">แสกงผู้ใช้งาน</a></li>
           </ul>
         </li>
       </ul>
